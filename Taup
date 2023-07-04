@@ -1,0 +1,17 @@
+# 下载软件包http://www.seis.sc.edu/downloads/TauP
+$ 下载最新版本Taup*
+# 解压
+$ tar -xvf Taup*
+
+# 移动到安装目录
+$ sudo mv Taup* ~/opt
+
+# 添加环境变量 打开.bashrc文件，添加如下两行
+$ export TAUPHOME=/home/yanbing/opt/Taup*
+$ export PATH=${TAUPHOME}/bin:${PATH}
+$ source ~/.bashrc
+
+# 安装 Java 环境
+$ sudo apt install default-jdk   # 安装java环境
+
+$ taup    # 若出现图形界面则安装成功
