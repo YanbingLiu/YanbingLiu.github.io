@@ -1,1 +1,11 @@
+# set chrome as default
+Here's how you can check your current configuration and see what options you have (the names you should use might vary depending on your system):
 
+gio mime x-scheme-handler/http
+Then, you can change the default adding the option you want as an extra argument (you probably need to set both http and https):
+
+gio mime x-scheme-handler/http *chrome
+gio mime x-scheme-handler/https *chrome
+
+xdg-settings get default-web-browser *chrome
+xdg-settings set default-web-browser *chrome
