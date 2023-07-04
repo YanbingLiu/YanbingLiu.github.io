@@ -1,1 +1,28 @@
+ # v102.0
+ # 安装依赖
+ $ sudo apt install build-essential
+ $ sudo apt install libncurses5-dev libsm-dev libice-dev
+ $ sudo apt install libxpm-dev libx11-dev zlib1g-dev
+ $  if libncurses is not installed then install it and try again.
+ $  for 32-bit binaries : sudo apt-get install libncurses5:i386
+ $  for 64-bit binaries : sudo apt-get install libncurses5
+ $  Also install the collection of libraries by using this command,
+ $  sudo apt-get install ia32-libs
+ # 解压
+ $ tar -xvf sac-102.0-linux_x86_64.tar.gz
 
+ # 移动到安装目录
+ $ mv sac ~/opt/sac
+
+ # 添加环境变量
+ $ vim ~/.bashrc
+     # SAC
+     export SACHOME=/home/yanbing/opt/sac102
+     . ${SACHOME}/bin/sacinit.sh
+
+ # 根据需求修改环境变量 SACHOME 一定要修改
+ $ vim ~/opt/sac102/bin/sacinit.sh
+ 修改sachome的位置 以及一些参数的开关
+
+ $ source ~/.bashrc
+ $ sac  # 测试是否安装成功
