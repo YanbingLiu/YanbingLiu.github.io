@@ -2,4 +2,4 @@
 
 # GMT安装 https://github.com/YanbingLiu/yanbingliu.github.io/blob/main/gmt
 # SAC安装 https://github.com/YanbingLiu/yanbingliu.github.io/blob/main/sac
-# xfce修改默认浏览器为chrome:
+# xfce修改默认浏览器为chrome: https://github.com/YanbingLiu/yanbingliu.github.io/blob/main/default%20chrome
