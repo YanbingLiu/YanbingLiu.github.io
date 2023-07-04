@@ -65,10 +65,10 @@ Linux主要存在的问题是众多fonts文件的缺失，所以当我们编译�
 从别处拷贝需要的字体，从Windows的C:/Windows/Fonts下拷贝最常使用的几种字体：msyh.ttf（微软雅黑） simfang.ttf（仿宋） simhei.ttf（黑体） simkai.ttf（楷体） simsun.ttc（宋体）。
 拷贝到Linux的/usr/share/fonts/winfonts/目录下
 #chmod a+x  /usr/share/fonts/winfonts/ 
-# cd /usr/share/fonts/winfonts/
-# mkfontscale
-# mkfontdir
-# fc-cache
+ # cd /usr/share/fonts/winfonts/
+ # mkfontscale
+ # mkfontdir
+ # fc-cache
  # 修改 gs 中文配置文件
  $ sudo vim /etc/ghostscript/cidfmap.d/90gs-cjk-resource-gb1.conf
      % 原配置文件的内容，与 STSong-Light 等相关的四行必须删除
