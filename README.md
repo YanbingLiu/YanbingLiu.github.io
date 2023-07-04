@@ -1,6 +1,6 @@
 # yanbingliu.github.io
 这个博客主要记录我的地震学研究笔记
-GMT安装记录：
+#GMT安装记录：
  # 安装编译所需软件包
  $ sudo apt update
  $ sudo apt install build-essential cmake libcurl4-gnutls-dev libnetcdf-dev
