@@ -26,3 +26,7 @@
 
  $ source ~/.bashrc
  $ sac  # 测试是否安装成功
+
+ # sac tools安装
+ $ github 下载 https://github.com/seisman/SACTools
+ $ cd SACTools && make
